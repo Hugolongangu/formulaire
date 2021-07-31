@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les formulaires</title>
+</head>
+
+<body>
+    <form Method="POST" action="">
+        <!--Indetification de formulaire-->
+        <p><label for="Nom">Nom : </label><input type="text" name="Nom" id="Nom" placeholder="Entre votre nom?" /></p>
+        <p><label for="Postnom">Postnom : </label><input type="text" name="Postnom" id="Postnom" placeholder="Entre votre Post nom" /></p>
+        <p><label for="Prénom">Prénom : </label><input type="text" name="Prénom" id="Prénom" placeholder="Entre votre Pré nom" /></p>
+        <!--Genre-->
+        <p><label for="Genre">Genre</label></p>
+        <p><label for="Homme">Homme</label><input type="radio" name="Homme" value="Homme10" id="Homme10"> <label
+                for="Femme">Femme</label><input type="radio" name="Femme" value="femme
+            " id="Femme"></p>
+        <p><label for="Message">Message</label></p>
+        <p><textarea name="" id="" cols="50" rows="10"></textarea></p>
+        <p><label for="Photo">Photo</label></p>
+        <p><input type="text"></p>
+        <!--crocher sur la case-->
+        <p><input type="checkbox"><label for="Vous etes étudiant">Vous etes étudiant</label></p>
+        <p><input type="checkbox"><label for="Vous etes Majeurs">Vous etes Majeurs</label></p>
+        <!--Date de Naissance-->
+        <p><label for="Date de Naissance">Date de Naissance</label></p>
+        <p><input type="date"></p>
+        <!--temps-->
+        <p><label for="Temps d'arrivé">Temps d'arrivé</label></p>
+        <p><input type="time"></p>
+        <!--selectionner votre faculté-->
+        <p><label for="Selectionner la faculte">Selectionner la faculte</label></p>
+        <p>
+            <select name="Faculte" id="Faculte">
+                <option value="Droit">Droit</option>
+                <option value="Economie">Economie</option>
+                <option value="Lettre">Lettre</option>
+                <option value="Sciences">Sciences</option>
+            </select>
+
+        </p>
+    </form>
+</body>
+
+</html>
